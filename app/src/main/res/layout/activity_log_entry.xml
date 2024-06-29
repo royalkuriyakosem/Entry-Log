@@ -2,6 +2,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:backgroundTint="#474A4B"
     android:gravity="center"
     android:padding="100px"
     android:background="@color/cardview_dark_background"

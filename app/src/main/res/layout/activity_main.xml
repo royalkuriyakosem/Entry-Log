@@ -3,40 +3,54 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/background"
     android:padding="100px"
-    android:background="@color/cardview_dark_background"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="167dp"
+        android:background="@drawable/logo" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Lab Entry Log"
         android:textSize="70px"
         android:gravity="center"
+        android:textColor="#030354"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Username"
         android:textSize="50px"
+        android:textColor="#030354"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your username"
         android:id="@+id/uname"
+        android:textColorHint="#030354"
+        android:textColor="#030354"
+        android:drawableRight="@drawable/baseline_person_24"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Password"
         android:textSize="50px"
+        android:textColor="#030354"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your password"
         android:inputType="numberPassword"
+        android:textColorHint="#030354"
+        android:textColor="#030354"
         android:id="@+id/pass"
+        android:drawableRight="@drawable/baseline_lock_24"
         />
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
